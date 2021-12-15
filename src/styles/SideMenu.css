@@ -1,0 +1,27 @@
+.side-menu {
+  height: 100%;
+  width: 100%;
+  background-color: #141b25;
+  color: white;
+}
+
+.side-menu-option-groups {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.side-menu-option {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.side-menu-option:hover {
+  color: #ffff00;
+}
+
+hr {
+  width: 90%;
+  color: gray;
+}
