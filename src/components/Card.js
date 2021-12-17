@@ -7,12 +7,15 @@ const Card = ({ data }) => {
       <div
         className="card-image"
         style={{
-          backgroundImage: `url(https://drive.google.com/uc?id=${data.img})`,
+          backgroundImage: `url(${data.img})`,
         }}
       ></div>
       <div className="card-title"> {data.title} </div>
       <div className="card-info">
-        <span> Episodes: {data.episodes} </span>
+        <div>Status: {data.status}</div>
+        <div> Episodes: {data.episodes} </div>
+        <div>Aired: {data.aired}</div>
+        <div>Genre: {data.genre}</div>
       </div>
     </div>
   );
