@@ -1,0 +1,23 @@
+.card {
+  display: grid;
+  grid-template-columns: 220px;
+  grid-template-rows: 240px 50px 80px;
+  grid-template-areas: "image" "title" "info";
+  margin: 5px 5px;
+}
+
+.card-image {
+  grid-area: image;
+  background-size: cover;
+}
+
+.card-title {
+  grid-area: title;
+  padding: 5px 10px;
+}
+
+.card-info {
+  grid-area: info;
+  padding: 5px 10px;
+  font-size: 12px;
+}
