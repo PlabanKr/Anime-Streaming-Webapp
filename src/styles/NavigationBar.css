@@ -1,8 +1,11 @@
 nav {
+  height: 40px;
+  width: 100%;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 15px;
   background-color: #1a2230;
   color: white;
 }

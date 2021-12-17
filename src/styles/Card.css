@@ -1,4 +1,5 @@
 .card {
+  background-color: #0b0f16;
   display: grid;
   grid-template-columns: 220px;
   grid-template-rows: 240px 50px 80px;
@@ -7,6 +8,7 @@
 }
 
 .card-image {
+  width: 272px;
   grid-area: image;
   background-size: cover;
 }
